@@ -31,17 +31,17 @@
       --font-serif: 'Cormorant Garamond', serif;
       --font-mono: 'IBM Plex Mono', monospace;
     }
-
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 90px;
-    }
+
 
     body {
       background: var(--bg);
@@ -57,10 +57,7 @@
     .section-alt {
       background: #0e1728;
     }
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+
 
     button, input, textarea {
       font: inherit;
